@@ -1,5 +1,3 @@
-```fs
-
 // F01_FolderProcessing
 
 (dir as text) as table => let 
@@ -120,6 +118,4 @@ in
 
 in 
 Result
-
-```
 
