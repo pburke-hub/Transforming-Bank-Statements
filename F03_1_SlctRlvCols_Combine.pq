@@ -150,28 +150,3 @@ Result
 
 in 
 ScriptFunc
-
-
-
-
-
-// Old: 
-	// 	LstOfSubTblGoodCols = Table.TransformRows(
-	// 		cntnt_nme_hasx29_tbl, 
-	// 		each let 
-	// 				IrrelevIdxs = if [HasX29Cols] 
-	// 					then X29_ToGos 
-	// 					else X28_ToGos, 
-					
-	// 				SubTbl_IrrelevsGone = Lst_RemovePsns(
-	// 					[Content], IrrelevIdxs
-	// 					), 
-
-	// 				AddFNameCol = SubTbl_IrrelevsGone & {[Name]} // Must wrap the single `[Name]` list in `{}` if want to add it into a list-of-lists.
-	// 			in 
-	// 				AddFNameCol 
-	// 		) 
-	// in 
-	// 	LstOfSubTblGoodCols, 
-
-
