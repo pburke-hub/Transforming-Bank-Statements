@@ -1,0 +1,14 @@
+﻿Transaction Reconciliation Report,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Account Name,Account Id,Time Zone,Date Range,From Date,To Date,,,,,,,,,,,,,,,,,,,,,,,
+BIKEWORKS PTY LIMITED,956eda9f-935a-48c0-8080-68be76b37c24,Australia/Melbourne,Created at,2026-07-01 00:00:00,2026-08-01 00:00:00,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Transaction Details,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Type,Transaction Id,Financial Transaction Type,Source Id,Source Entity,Request Id,Created At,Estimated settled At,Settled At,Status,Settlement Currency,Settlement Amount,Fee,Net Amount,Transaction Currency,Transaction Amount,Exchange Rate,Settlement Type,Batch Id,Payment Method,Payment Attempt Id,Payment Intent Id,Order Id,Reference,Reason,Beneficiary Bank Account Name,Beneficiary Bank Account Number,Remitting Bank,Remitter Name
+Deposit,ftx_K--dxG3ZQAGNjuVkGRaO-g,Deposit,12905ce8-0316-4fe0-8418-21373c579b5f,Deposit,,2026-06-02 04:51:00,,2026-07-02 04:51:00,Settled,AUD,"50,000.00",,"50,000.00",,,,Single,,,,,,PTM0000676738755,,,,,Gene Founderson
+Card,5812e890-40da-4d51-b74f-2dfc44d37ddf,Issuing Capture,5812e890-40da-4d51-b74f-2dfc44d37ddf,Card Purchase,5812e890-40da-4d51-b74f-2dfc44d37ddf,2026-07-03 18:39:00,,,Settled,AUD,-36.96,,-36.96,AUD,-36.96,,None,,"Card: Boogle Workspace, **0871",,,,118279000947 - I6S217,,"BOOGLE  BSUITE_bikeworks, Sydney, AUS",,,
+Conversion,ftx_Inaqv7EYRfK6EJItVchSeg,Conversion Sell,04a899f9-297e-4092-91ee-20bd9ece9507,Conversion,,2026-07-18 06:41:00,2026-07-18 10:00:00,2026-07-18 06:41:00,Settled,AUD,"-10,000.00",,"-10,000.00",USD,"7,526.50",0.752648,Single,,,,,,,,,,,
+Conversion,ftx_Kud9PdbFRw2_rC0vHNQ07g,Conversion Buy,04a899f9-297e-4092-91ee-20bd9ece9507,Conversion,,2026-07-18 06:41:00,2026-07-18 10:00:00,2026-07-18 06:41:00,Settled,USD,"7,526.50",,"7,526.50",AUD,"10,000.00",0.752648,Single,,,,,,,,,,,
+Conversion,ftx_QQHWytMHR9mj6WRNTgXzhA,Conversion Sell,5593a8bf-379f-425d-a008-7a6bb55f7c6a,Conversion,,2026-07-19 15:21:00,2026-07-19 11:00:00,2026-07-19 15:21:00,Settled,AUD,"-28,000.00",,"-28,000.00",INR,"1,448,319.74",51.725705,Single,,,,,,,,,,,
+Conversion,ftx_Rtf-GuE8QaukedXhkpqZyA,Conversion Buy,5593a8bf-379f-425d-a008-7a6bb55f7c6a,Conversion,,2026-07-19 15:21:00,2026-07-19 11:00:00,2026-07-19 15:21:00,Settled,INR,"1,448,319.74",,"1,448,319.74",AUD,"14,000.00",51.725705,Single,,,,,,,,,,,
+Card,5c213bd3-bd24-4401-8700-533445a2c165,Issuing Capture,5c213bd3-bd24-4401-8700-533445a2c165,Card Purchase,5c213bd3-bd24-4401-8700-533445a2c165,2026-07-20 20:35:00,,,Settled,USD,-19.99,,-19.99,USD,-19.99,,None,,"Card: Website Costs, **1067",,,,212222091858 - JHRCX2,,"FODADDY.COM USD, https://www.f, AZUSA",,,
+Payout,ftx_Ic0EDb4_Tbiw2zEzyuPL6A,Payout,87c79144-b9c5-429a-8040-7072cd12bc4e,Payout,Wheely PO222335,2026-07-29 11:54:00,,2026-07-29 11:55:00,Settled,INR,"-1,447,982.65",,"-1,447,982.65",,,,Single,,Local,,,,PO222335 BikeWorks,,Wheely Good Pvt.,,,
